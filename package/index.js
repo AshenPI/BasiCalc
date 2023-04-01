@@ -1,7 +1,10 @@
-const addition = (a , c) =>{
 
+
+
+const  addition = (a , c) => {
     return (a + c)
 }
+
 
 const  subtraction = (a , c) => {
     return (a - c)
@@ -21,4 +24,13 @@ const power = (a , c) =>{
 
 }
 
-module.exports = addition , subtraction , multiplication , division , power
+ const obj =  {
+    add : addition,
+    subtrac : subtraction,
+    multi: multiplication,
+    divison: division,
+    pow: power
+
+}
+
+module.exports = obj
