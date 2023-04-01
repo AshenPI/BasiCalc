@@ -21,9 +21,4 @@ const power = (a , c) =>{
 
 }
 
-
-console.log(addition( 1 , 1))
-console.log(subtraction( 1 , 1))
-console.log(multiplication( 1 , 10))
-console.log(division( 6 , 2))
-console.log(power( 2 , 2))
+module.exports = addition , subtraction , multiplication , division , power
